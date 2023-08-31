@@ -1,0 +1,35 @@
+{
+  "root": true,
+  "project": {
+    "name": "portfolio-2023"
+  },
+  "api": {
+    "projectId": "6wscwbb6",
+    "dataset": "production"
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool"
+  ],
+
+    "paths": {
+      "source": "./src",
+      "compiled": "./lib"
+    },
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema"
+    },
+    {
+      "implements": "part:@sanity/base/components/unicorn-slider",
+      "path": "components/Slider.js"
+    },
+    {
+      "name": "part:@sanity/vision/sanity.config.js",
+      "path": "./sanity"
+    }
+  ]
+}
