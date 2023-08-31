@@ -29,7 +29,8 @@ export default function About({}: Props) {
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once:true }}
         src="https://scontent.fsvg2-1.fna.fbcdn.net/v/t39.30808-6/332837118_1107248243420496_211636087865690763_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=jW5qrZFHheUAX8DnJwi&_nc_ht=scontent.fsvg2-1.fna&oh=00_AfBSZ1735FHA2OkOVg1inqTj-ohLsZj1QtrbWmwWB7aYyA&oe=64F346E2"
-        className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]"/>
+        className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]"
+        alt="Caroline next to a kangaroo"/>
 
         <div className="space-y-10 px-0 md:px-10">
             <h4 className="text-4xl font-semibold">Her er litt om min bakgrunn</h4>

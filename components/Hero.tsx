@@ -1,4 +1,5 @@
 "use client";
+import Image from "@/node_modules/next/image";
 import Link from "@/node_modules/next/link";
 import React from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
@@ -19,7 +20,7 @@ export default function Hero({}: Props) {
     return (
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
         <BackgroundCircles />
-        <img 
+        <Image 
        className="relative rounded-full h-40 w-40 mx-auto object-cover"
        src="https://media.licdn.com/dms/image/C4D03AQEg4wg8MmqaNw/profile-displayphoto-shrink_800_800/0/1642490513665?e=1698278400&v=beta&t=RcfU9lFNWE_jO_zTHbgV99MEGDkanBq7aDfH7_5cL7A" alt="Image of Caroline Westvang Andreassen" />
         <div className="z-20">

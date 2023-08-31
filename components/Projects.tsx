@@ -41,7 +41,7 @@ export default function Projects({}: Props) {
                     }}
                     className="w-40 h-40 xl:h-80 xl:w-80 md:h-60 md:w-60"
                     src="https://images.unsplash.com/photo-1543002588-bfa74002ed7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
-                    alt="Active logo"
+                    alt="Books"
                     />
                     <motion.img
                     initial={{
@@ -60,7 +60,7 @@ export default function Projects({}: Props) {
                     }}
                     className="w-40 h-40 xl:h-80 xl:w-80 md:h-60 md:w-60"
                     src="https://images.unsplash.com/photo-1543002588-bfa74002ed7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
-                    alt=""
+                    alt="Books"
                     />
                     <motion.img
                     initial={{
@@ -79,7 +79,7 @@ export default function Projects({}: Props) {
                     }}
                     className="w-40 h-40 xl:h-80 xl:w-80 md:h-60 md:w-60"
                     src="https://images.unsplash.com/photo-1543002588-bfa74002ed7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
-                    alt=""
+                    alt="Books"
                     /></div>
                     <div className="space-y-5 px-0 md:px-10 max-w-6xl">
                         <h4 className="text-4xl font-semibold text-center"><span className="text-blue-300">Prosjekt {i+1} av {projects.length}:</span>{" "}Logo og profilmanual</h4>
