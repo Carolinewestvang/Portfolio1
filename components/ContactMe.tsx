@@ -10,16 +10,16 @@ type Inputs = {
     message: string;
   };
 
-type Props = {};
 
-export default function ContactMe({}: Props) {
+
+export default function ContactMe({}) {
     const { register, handleSubmit, } = useForm<Inputs>();
     const onSubmit: SubmitHandler<Inputs> = (formData) => window.location.href = `mailto:caroline@andreassen.no?subject=${formData.subject}&body=${formData.message} Hilsen ${formData.name} (${formData.email})`;
 
     return <div className="h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
         <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">Kontakt meg</h3>
         <div className="space-y-10">
-        <div className="flex flex-col space-y-10 items-center justify-center pb-12">
+        <div className="flex flex-col space-y-10 items-center justify-center pb-12 mt-10">
             <h4 className="text-4xl font-semibold text-center">
                 Ønsker du å høre mer? <span className="text-[#40E0D0]/80">Ta kontakt.</span>
             </h4>
@@ -43,7 +43,7 @@ export default function ContactMe({}: Props) {
             <input {... register("subject")} placeholder="Emne" className="contactInput" type="text" />
 
             <textarea {... register("message")} placeholder="Melding" className="contactInput" />
-            <button type="submit "className="bg-[#40E0D0]/40 py-5 px-10 rounded-md text-white font-bold text-lg">Send</button>
+            <button type="submit"className="bg-[#40E0D0]/40 py-5 px-10 rounded-md text-white font-bold text-lg">Send</button>
         </form>
         </div>
         <div className="flex flex-col absolute bottom-0 h-16">

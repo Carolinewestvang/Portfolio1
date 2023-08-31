@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 import React from "react";
 
 
-export default function Skill({  }: Props) {
+export default function Skill({  }) {
     return <div className="group relative flex cursor-pointer">
-        <Image
+        <img
         src="https://www.sanity.io/static/images/logo_rounded_square.png"
         className="rounded-full border border-gray-500 object-cover w-24 h-24 md:w-28 md:h-28 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out"
         alt="sanity logo"

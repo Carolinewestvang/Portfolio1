@@ -1,11 +1,11 @@
 "use client";
 import { motion } from "framer-motion";
 import React from "react";
-import Image from 'next/image';
 
-type Props = {};
 
-export default function Projects({}: Props) {
+
+
+export default function Projects({}) {
     const projects = [1, 2, 3, 4, 5]
     return <motion.div
     initial={{
@@ -22,7 +22,7 @@ export default function Projects({}: Props) {
 
         <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snapmandatory z-20 scrollbar scrollbar-thin scrollbar-track-gray-800/20 scrollbar-thumb-blue-900/80 mt-10">
             {projects.map((project, i) => (
-                <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
+                <div key={project} className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
                     <div className="flex flex-row space-x-5">
                     <motion.img
                     initial={{
@@ -36,7 +36,7 @@ export default function Projects({}: Props) {
                         opacity: 1, 
                         y:0,
                     }}
-                    viewPort={{
+                    viewport={{
                         once: true
                     }}
                     className="w-40 h-40 xl:h-80 xl:w-80 md:h-60 md:w-60"
@@ -55,7 +55,7 @@ export default function Projects({}: Props) {
                         opacity: 1, 
                         y:0,
                     }}
-                    viewPort={{
+                    viewport={{
                         once: true
                     }}
                     className="w-40 h-40 xl:h-80 xl:w-80 md:h-60 md:w-60"
@@ -74,7 +74,7 @@ export default function Projects({}: Props) {
                         opacity: 1, 
                         y:0,
                     }}
-                    viewPort={{
+                    viewport={{
                         once: true
                     }}
                     className="w-40 h-40 xl:h-80 xl:w-80 md:h-60 md:w-60"
