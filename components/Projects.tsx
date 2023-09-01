@@ -83,7 +83,7 @@ export default function Projects({}) {
                     /></div>
                     <div className="space-y-5 px-0 md:px-10 max-w-6xl">
                         <h4 className="text-4xl font-semibold text-center"><span className="text-blue-300">Prosjekt {i+1} av {projects.length}:</span>{" "}Logo og profilmanual</h4>
-                        <p className="text-lg text-center md:text-left">Denne seksjonen er også en WIP - se min <a href="https://www.behance.net/carolinandreas4" className="text-blue-500 underline">Behance profil</a> for å se mine prosjekter
+                        <p className="text-lg text-center md:text-left font-bold text-red-500">Denne seksjonen er også en WIP - se min <a href="https://www.behance.net/carolinandreas4" className="text-blue-500 underline">Behance profil</a> for å se mine prosjekter
                         </p>
                         <p className="text-lg text-center"><span className="font-bold uppercase">Se prosjekt:</span> <a href="https://www.behance.net/gallery/178848537/Logo-og-profilmanual" className="text-blue-500 underline">Logo og profilmanual</a>
                         </p>

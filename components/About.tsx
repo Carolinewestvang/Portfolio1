@@ -2,10 +2,11 @@
 import { motion } from "framer-motion";
 import React from "react";
 
-type Props = {};
 
-export default function About({}: Props) {
-    return <motion.div
+
+export default function About({}) {
+    return (
+    <motion.div
     initial={{
         opacity: 0
     }}
@@ -41,9 +42,9 @@ export default function About({}: Props) {
             Digitale medier og design studiet er et studie som er en krysning mellom informasjonsteknologi og design. Det er rettet mot front-end utvikling, og jeg lærte mye forskjellig. Ta gjerne en titt innom noen av prosjektene jeg har jobbet med lenger ned på siden. 
             <br></br>
             <br></br>
-            <span className="font-bold">OBS!</span> Dette er starten på arbeidet med min portefølje nettside. Den blir utviklet med next.js, react, tailwind CSS og sanity.io. Jeg jobber med den i nåtid, og jobber for tiden med å koble til og hente ut informasjonen fra sanity, dermed er kun den statiske informasjonen her foreløpig, men nettsiden er nå en demonstrasjon av hvordan den vil se ut til slutt. 
-            </p>
-
-        </div>  
+            <span className="font-bold text-red-500">OBS!</span> Dette er starten på arbeidet med min portefølje nettside. Den blir utviklet med next.js, react, tailwind CSS og sanity.io. Jeg jobber med den i nåtid, og jobber for tiden med å koble til og hente ut informasjonen fra sanity, dermed er kun den statiske informasjonen her foreløpig, men nettsiden er nå en demonstrasjon av hvordan den vil se ut til slutt. 
+            </p>  
+            </div>
     </motion.div>
+    )
 }

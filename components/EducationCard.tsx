@@ -27,7 +27,7 @@ export default function EducationCard({}) {
           <p className="font-bold text-2xl mt-1">Lørenskog videregående skole</p>
           <p className="uppercase py-5 text-gray-300">Startet skolegangen... - sluttet...</p>
           
-          <p className="list-disc space-y-4 text-lg">
+          <p className="list-disc space-y-4 text-lg text-red-500 font-bold">
               Denne seksjonen er en WIP - Se min CV for info.
           </p>
       </div>

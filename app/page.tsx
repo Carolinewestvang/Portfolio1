@@ -13,6 +13,8 @@ export default function Home() {
     <div className="bg-black text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-thin scrollbar-track-black scrollbar-thumb-blue-900/80">
     <head>
       <title>Carolines portefølje</title>
+      <meta name="keywords" content="portefølje, portfolio, Caroline Westvang Andreassen, prosjekter, skoleprosjekter, CV, experience, education, utdanning, ferdigheter, skills, erfaring, Caroline W Andreassen, Caroline Andreassen, Caroline Westvang"/>
+      <meta name="description" content="En portefølje nettside for Caroline Westvang Andreassen"/>
     </head>
      {/* Header */}
       <Header/>

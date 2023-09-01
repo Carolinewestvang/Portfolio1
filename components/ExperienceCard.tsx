@@ -1,9 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-type Props = {};
 
-export default function ExperienceCard({}: Props) {
+
+export default function ExperienceCard({}) {
     return <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snao-center bg-blue-900/40 p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden">
       <motion.img
       initial={{
@@ -27,7 +27,7 @@ export default function ExperienceCard({}: Props) {
           <p className="font-bold text-2xl mt-1">Brødr. Andreassen AS</p>
           <p className="uppercase py-5 text-gray-300">Startet jobben... - sluttet...</p>
           
-          <p className="list-disc space-y-4 text-lg">
+          <p className="list-disc space-y-4 text-lg text-red-500 font-bold">
               Denne seksjonen er en WIP - Se min CV for info.
           </p>
       </div>
