@@ -15,7 +15,7 @@ export default function Home() {
       <title>Caroline Westvang Andreassen</title>
       <meta name="keywords" content="portefølje, portfolio, Caroline Westvang Andreassen, prosjekter, skoleprosjekter, CV, experience, education, utdanning, ferdigheter, skills, erfaring, Caroline W Andreassen, Caroline Andreassen, Caroline Westvang"/>
       <meta name="description" content="En portefølje nettside for Caroline Westvang Andreassen"/>
-      <link rel="icon" type="image/x-icon" href="/favicon.ico"></link>
+      <link rel="icon" type="image/x-icon" href="favicon.ico"></link>
     </head>
      {/* Header */}
       <Header/>

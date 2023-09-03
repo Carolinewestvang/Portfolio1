@@ -1,6 +1,8 @@
 "use client";
 import { motion } from "framer-motion";
 import React from "react";
+import image from "next/image";
+import Image from "@/node_modules/next/image";
 
 
 
@@ -19,7 +21,7 @@ export default function About({}) {
     className="flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
         <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">Om meg</h3>
 
-        <motion.img
+        <motion.div
         initial={{
             x:-200,
             opacity: 0,
@@ -28,10 +30,13 @@ export default function About({}) {
             duration: 1.2,
         }}
         whileInView={{ opacity: 1, x: 0 }}
-        viewport={{ once:true }}
-        src="https://scontent.fsvg2-1.fna.fbcdn.net/v/t39.30808-6/332837118_1107248243420496_211636087865690763_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=jW5qrZFHheUAX8DnJwi&_nc_ht=scontent.fsvg2-1.fna&oh=00_AfBSZ1735FHA2OkOVg1inqTj-ohLsZj1QtrbWmwWB7aYyA&oe=64F346E2"
-        className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]"
+        viewport={{ once:true }}>
+        <Image src={`/skydive.JPG`}
+        width="1080"
+        height="1920"
+        className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-96 md:h-96 xl:w-[2000px] xl:h-[600px]"
         alt="Caroline next to a kangaroo"/>
+        </motion.div>
 
         <div className="space-y-10 px-0 md:px-10">
             <h4 className="text-4xl font-semibold">Her er litt om min bakgrunn</h4>
@@ -42,9 +47,10 @@ export default function About({}) {
             Digitale medier og design studiet er et studie som er en krysning mellom informasjonsteknologi og design. Det er rettet mot front-end utvikling, og jeg lærte mye forskjellig. Ta gjerne en titt innom noen av prosjektene jeg har jobbet med lenger ned på siden. 
             <br></br>
             <br></br>
-            <span className="font-bold text-red-500">OBS!</span> Dette er starten på arbeidet med min portefølje nettside. Den blir utviklet med next.js, react, tailwind CSS og sanity.io. Jeg jobber med den i nåtid, og jobber for tiden med å koble til og hente ut informasjonen fra sanity, dermed er kun den statiske informasjonen her foreløpig, men nettsiden er nå en demonstrasjon av hvordan den vil se ut til slutt. 
+            <span className="font-bold text-red-500">OBS!</span> Dette er starten på arbeidet med min portefølje nettside. Den blir utviklet med next.js, react, tailwind CSS og sanity.io. Jeg jobber med den i nåtid, og jobber for tiden med å koble til og hente ut informasjonen fra sanity, dermed er det for det meste kun den statiske informasjonen som er her foreløpig, men nettsiden er nå en demonstrasjon av hvordan den vil se ut til slutt. 
             </p>  
             </div>
+            
     </motion.div>
     )
 }
