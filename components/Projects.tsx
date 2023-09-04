@@ -19,12 +19,12 @@ export default function Projects({}) {
         duration: 1.5
     }}
      className="h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-o">
-        <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">Prosjekter</h3>
+        <h3 className="absolute mr-5 ml-10 top-24 uppercase tracking-[20px] text-gray-500 text-2xl">Prosjekter</h3>
 
         <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snapmandatory z-20 scrollbar scrollbar-thin scrollbar-track-gray-800/20 scrollbar-thumb-blue-900/80 mt-10">
             
-                <div className="w-screen flex-shrink-0 snap-center flex flex-col spaxe-y-5 items-center justify-center p-20 md:p-44 h-screen">
-                    <div className="flex flex-row space-x-5">
+                <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-3 md:p-44 h-screen">
+                    <div className="flex flex-row space-x-1 md:space-x-5">
                     <motion.div
                     initial={{
                         y: -300,
@@ -40,11 +40,12 @@ export default function Projects({}) {
                     viewport={{
                         once: true
                     }}
-                    className="w-40 h-40 xl:h-60 xl:w-80 md:h-40 md:w-60">
+                    >
                     <Image src={`/active.png`}
                     width="1080"
                     height="1920"
-                    alt="Active logo with mountain background"/>
+                    alt="Active logo with mountain background"
+                    className="w-40 h-30 xl:h-70 xl:w-80 md:h-50 md:w-60 mt-10"/>
                     </motion.div>
                     <motion.div
                     initial={{
@@ -61,11 +62,12 @@ export default function Projects({}) {
                     viewport={{
                         once: true
                     }}
-                    className="w-40 h-40 xl:h-60 xl:w-80 md:h-40 md:w-60">
+                    >
                     <Image src={`/visittkort.png`}
                     width="1080"
                     height="1920"
-                    alt="Business card mockup for Active"/>
+                    alt="Business card mockup for Active"
+                    className="w-40 h-30 xl:h-70 xl:w-80 md:h-50 md:w-60 mt-10"/>
                     </motion.div>
                     <motion.div
                     initial={{
@@ -82,28 +84,29 @@ export default function Projects({}) {
                     viewport={{
                         once: true
                     }}
-                    className="w-40 h-40 xl:h-60 xl:w-80 md:h-40 md:w-60">
+                    >
                     <Image src={`/profilmanual.png`}
                     width="1080"
                     height="1920"
-                    alt="Logomanual for active - rules for use: spacing"/>
+                    alt="Logomanual for active - rules for use: spacing"
+                    className="w-40 h-30 xl:h-70 xl:w-80 md:h-50 md:w-60 mt-10"/>
                     </motion.div>
                     </div>
-                    <div className="space-y-5 px-0 md:px-10 max-w-6xl mt-5">
-                        <h4 className="text-4xl font-semibold text-center"><span className="text-blue-300">Prosjekt 1 av 9: </span>Logo og profilmanual</h4>
-                        <p className="text-lg text-center md:text-left font-bold">Det skulle lages en logo og senere en komplett profilmanual for en hypotetisk bedrift. Bedriften heter Active og er et eventbyrå som arrangerer turer for ansatte i bedrifter. De byr på turer i skog og mark med mange ulike aktiviteter i fjell, vann, skog etc. De ønsker å fremme fysisk aktivitet ute, og ønsker dette representert i logoen. 
+                    <div className="space-y-6 md:space-y-5 px-0 md:px-10 max-w-6xl mt-5">
+                        <h4 className="text-1xl md:text-4xl font-semibold text-center"><span className="text-blue-300">Prosjekt 1 av 9: </span>Logo og profilmanual</h4>
+                        <p className="text-xs md:text-lg text-center md:text-left md:font-bold">Det skulle lages en logo og senere en komplett profilmanual for en hypotetisk bedrift. Bedriften heter Active og er et eventbyrå som arrangerer turer for ansatte i bedrifter. De byr på turer i skog og mark med mange ulike aktiviteter i fjell, vann, skog etc. De ønsker å fremme fysisk aktivitet ute, og ønsker dette representert i logoen. 
                         </p>
-                        <p className="text-lg text-center"><span className="font-bold uppercase">Se prosjekt:</span> <a href="https://www.behance.net/gallery/178848537/Logo-og-profilmanual" className="text-blue-500 underline">Logo og profilmanual</a>
+                        <p className="text-xs md:text-lg text-center"><span className="font-bold uppercase">Se prosjekt:</span> <a href="https://www.behance.net/gallery/178848537/Logo-og-profilmanual" className="text-blue-500 underline">Logo og profilmanual</a>
                         </p>
-                        <p className="text-lg text-center"><span className="font-bold uppercase">Fag:</span> Grafisk design
+                        <p className="text-xs md:text-lg text-center"><span className="font-bold uppercase">Fag:</span> Grafisk design
                         </p>
-                        <p className="text-lg text-center"><span className="font-bold uppercase">Semester:</span> Vår 2021
+                        <p className="text-xs md:text-lg text-center"><span className="font-bold uppercase">Semester:</span> Vår 2021
                         </p>
-                        <p className="text-lg text-center uppercase"><span className="font-bold">Karakter:</span> A
+                        <p className="text-xs md:text-lg text-center uppercase"><span className="font-bold">Karakter:</span> A
                         </p>
                     </div>
                 </div>
-                <div className="w-screen flex-shrink-0 snap-center flex flex-col spaxe-y-5 items-center justify-center p-20 md:p-44 h-screen">
+                <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
                     <div className="flex flex-row space-x-5">
                     <motion.div
                     initial={{
@@ -120,11 +123,12 @@ export default function Projects({}) {
                     viewport={{
                         once: true
                     }}
-                    className="w-40 h-40 xl:h-60 xl:w-80 md:h-40 md:w-60">
+                    >
                     <Image src={`/modell1.jpg`}
                     width="1080"
                     height="1920"
-                    alt="Guitar detail"/>
+                    alt="Guitar detail"
+                    className="w-40 h-40 xl:h-60 xl:w-80 md:h-40 md:w-60"/>
                     </motion.div>
                     <motion.div
                     initial={{
@@ -141,11 +145,12 @@ export default function Projects({}) {
                     viewport={{
                         once: true
                     }}
-                    className="w-40 h-40 xl:h-60 xl:w-80 md:h-40 md:w-60">
+                    >
                     <Image src={`/modell2.jpg`}
                     width="1080"
                     height="1920"
-                    alt="romantic dinner for two"/>
+                    alt="romantic dinner for two"
+                    className="w-40 h-40 xl:h-60 xl:w-80 md:h-40 md:w-60"/>
                     </motion.div>
                     <motion.div
                     initial={{
@@ -162,11 +167,12 @@ export default function Projects({}) {
                     viewport={{
                         once: true
                     }}
-                    className="w-40 h-40 xl:h-60 xl:w-80 md:h-40 md:w-60">
+                    >
                     <Image src={`/modell3.jpg`}
                     width="1080"
                     height="1920"
-                    alt="Angry troll in the woods"/>
+                    alt="Angry troll in the woods"
+                    className="w-40 h-40 xl:h-60 xl:w-80 md:h-40 md:w-60"/>
                     </motion.div>
                     </div>
                     <div className="space-y-5 px-0 md:px-10 max-w-6xl mt-5">
@@ -183,7 +189,7 @@ export default function Projects({}) {
                         </p>
                     </div>
                 </div>
-                <div className="w-screen flex-shrink-0 snap-center flex flex-col spaxe-y-5 items-center justify-center p-20 md:p-44 h-screen">
+                <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
                     <div className="flex flex-row space-x-5">
                     <motion.div
                     initial={{
@@ -200,11 +206,12 @@ export default function Projects({}) {
                     viewport={{
                         once: true
                     }}
-                    className="w-40 h-40 xl:h-60 xl:w-80 md:h-40 md:w-60">
+                    >
                     <Image src={`/web1.png`}
                     width="1080"
                     height="1920"
-                    alt="Website overview - first version"/>
+                    alt="Website overview - first version"
+                    className="w-40 h-30 xl:h-70 xl:w-80 md:h-50 md:w-60 mt-10"/>
                     </motion.div>
                     <motion.div
                     initial={{
@@ -221,11 +228,12 @@ export default function Projects({}) {
                     viewport={{
                         once: true
                     }}
-                    className="w-40 h-40 xl:h-60 xl:w-80 md:h-40 md:w-60">
+                    >
                     <Image src={`/web2.png`}
                     width="1080"
                     height="1920"
-                    alt="website overview - final version"/>
+                    alt="website overview - final version"
+                    className="w-40 h-30 xl:h-70 xl:w-80 md:h-50 md:w-60 mt-10"/>
                     </motion.div>
                     <motion.div
                     initial={{
@@ -242,14 +250,15 @@ export default function Projects({}) {
                     viewport={{
                         once: true
                     }}
-                    className="w-40 h-40 xl:h-60 xl:w-80 md:h-40 md:w-60">
+                    >
                     <Image src={`/web3.png`}
                     width="1080"
                     height="1920"
-                    alt="website pageview - final version"/>
+                    alt="website pageview - final version"
+                    className="w-40 h-30 xl:h-70 xl:w-80 md:h-50 md:w-60 mt-10"/>
                     </motion.div>
                     </div>
-                    <div className="space-y-5 px-0 md:px-10 max-w-6xlmt-5">
+                    <div className="space-y-5 px-0 md:px-10 max-w-6xl mt-5">
                         <h4 className="text-4xl font-semibold text-center"><span className="text-blue-300">Prosjekt 3 av 9: </span>Nettside</h4>
                         <p className="text-lg text-center md:text-left">Ved hjelp av HTML og CSS skulle det lages en samleside for webutvikling. Den skulle være responsiv, sjekkes for tilgjengelighet og utbedres deretter, skulle ha en godt utbedret SEO. 
                         </p>
@@ -263,7 +272,7 @@ export default function Projects({}) {
                         </p>
                     </div>
                 </div>
-                <div className="w-screen flex-shrink-0 snap-center flex flex-col spaxe-y-5 items-center justify-center p-20 md:p-44 h-screen">
+                <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
                     <div className="flex flex-row space-x-5">
                     <motion.div
                     initial={{
@@ -280,11 +289,12 @@ export default function Projects({}) {
                     viewport={{
                         once: true
                     }}
-                    className="w-40 h-40 xl:h-60 xl:w-80 md:h-40 md:w-60">
+                    >
                     <Image src={`/laika.png`}
                     width="1080"
                     height="1920"
-                    alt="Robot dog named Laika on the moon"/>
+                    alt="Robot dog named Laika on the moon"
+                    className="w-40 h-30 xl:h-70 xl:w-80 md:h-50 md:w-60 mt-10"/>
                     </motion.div>
                     <motion.div
                     initial={{
@@ -301,11 +311,12 @@ export default function Projects({}) {
                     viewport={{
                         once: true
                     }}
-                    className="w-40 h-40 xl:h-60 xl:w-80 md:h-40 md:w-60">
+                    >
                     <Image src={`/witch.png`}
                     width="1080"
                     height="1920"
-                    alt="Magic witch trying to cook a horse head in her crockpot"/>
+                    alt="Magic witch trying to cook a horse head in her crockpot"
+                    className="w-40 h-30 xl:h-70 xl:w-80 md:h-50 md:w-60 mt-10"/>
                     </motion.div>
                     <motion.div
                     initial={{
@@ -322,11 +333,12 @@ export default function Projects({}) {
                     viewport={{
                         once: true
                     }}
-                    className="w-40 h-40 xl:h-60 xl:w-80 md:h-40 md:w-60">
+                    >
                     <Image src={`/BSVIP.png`}
                     width="1080"
                     height="1920"
-                    alt="Britney spears' perfume: VIP"/>
+                    alt="Britney spears' perfume: VIP"
+                    className="w-40 h-30 xl:h-70 xl:w-80 md:h-50 md:w-60 mt-10"/>
                     </motion.div>
                     </div>
                     <div className="space-y-5 px-0 md:px-10 max-w-6xl mt-5">
@@ -343,7 +355,7 @@ export default function Projects({}) {
                         </p>
                     </div>
                 </div>
-                <div className="w-screen flex-shrink-0 snap-center flex flex-col spaxe-y-5 items-center justify-center p-20 md:p-44 h-screen">
+                <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
                     <div className="flex flex-row space-x-5">
                     <motion.div
                     initial={{
@@ -360,11 +372,12 @@ export default function Projects({}) {
                     viewport={{
                         once: true
                     }}
-                    className="w-40 h-40 xl:h-60 xl:w-80 md:h-40 md:w-60">
+                    >
                     <Image src={`/spill1.png`}
                     width="1080"
                     height="1920"
-                    alt="2D-game: Tictactoe"/>
+                    alt="2D-game: Tictactoe"
+                    className="w-40 h-30 xl:h-70 xl:w-80 md:h-50 md:w-60 mt-10"/>
                     </motion.div>
                     <motion.div
                     initial={{
@@ -381,11 +394,12 @@ export default function Projects({}) {
                     viewport={{
                         once: true
                     }}
-                    className="w-40 h-40 xl:h-60 xl:w-80 md:h-40 md:w-60">
+                    >
                     <Image src={`/spill2.png`}
                     width="1080"
                     height="1920"
-                    alt="2D-game: The Satyr Reaper"/>
+                    alt="2D-game: The Satyr Reaper"
+                    className="w-40 h-30 xl:h-70 xl:w-80 md:h-50 md:w-60 mt-10"/>
                     </motion.div>
                     <motion.div
                     initial={{
@@ -402,11 +416,12 @@ export default function Projects({}) {
                     viewport={{
                         once: true
                     }}
-                    className="w-40 h-40 xl:h-60 xl:w-80 md:h-40 md:w-60">
+                    >
                     <Image src={`/spill3.png`}
                     width="1080"
                     height="1920"
-                    alt="2D - game: Guess the countries"/>
+                    alt="2D - game: Guess the countries"
+                    className="w-40 h-30 xl:h-70 xl:w-80 md:h-50 md:w-60 mt-10"/>
                     </motion.div>
                     </div>
                     <div className="space-y-5 px-0 md:px-10 max-w-6xl mt-10">
@@ -423,7 +438,7 @@ export default function Projects({}) {
                         </p>
                     </div>
                 </div>
-                <div className="w-screen flex-shrink-0 snap-center flex flex-col spaxe-y-5 items-center justify-center p-20 md:p-44 h-screen">
+                <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
                     <div className="flex flex-row space-x-5">
                     <motion.div
                     initial={{
@@ -440,11 +455,12 @@ export default function Projects({}) {
                     viewport={{
                         once: true
                     }}
-                    className="w-40 h-40 xl:h-60 xl:w-80 md:h-40 md:w-60">
+                    >
                     <Image src={`/lms1.jpeg`}
                     width="1080"
                     height="1920"
-                    alt="LMS login page"/>
+                    alt="LMS login page"
+                    className="w-40 h-30 xl:h-70 xl:w-80 md:h-50 md:w-60 mt-10"/>
                     </motion.div>
                     <motion.div
                     initial={{
@@ -461,11 +477,12 @@ export default function Projects({}) {
                     viewport={{
                         once: true
                     }}
-                    className="w-40 h-40 xl:h-60 xl:w-80 md:h-40 md:w-60">
+                    >
                     <Image src={`/lms2.jpeg`}
                     width="1080"
                     height="1920"
-                    alt="LMS courses overview page"/>
+                    alt="LMS courses overview page"
+                    className="w-40 h-30 xl:h-70 xl:w-80 md:h-50 md:w-60 mt-10"/>
                     </motion.div>
                     <motion.div
                     initial={{
@@ -482,11 +499,12 @@ export default function Projects({}) {
                     viewport={{
                         once: true
                     }}
-                    className="w-40 h-40 xl:h-60 xl:w-80 md:h-40 md:w-60">
+                    >
                     <Image src={`/lms3.jpeg`}
                     width="1080"
                     height="1920"
-                    alt="LMS lesson page"/>
+                    alt="LMS lesson page"
+                    className="w-40 h-30 xl:h-70 xl:w-80 md:h-50 md:w-60 mt-10"/>
                     </motion.div>
                     </div>
                     <div className="space-y-5 px-0 md:px-10 max-w-6xl mt-10">
@@ -503,7 +521,7 @@ export default function Projects({}) {
                         </p>
                     </div>
                 </div>
-                <div className="w-screen flex-shrink-0 snap-center flex flex-col spaxe-y-5 items-center justify-center p-20 md:p-44 h-screen">
+                <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
                     <div className="flex flex-row space-x-5">
                     <motion.div
                     initial={{
@@ -520,11 +538,12 @@ export default function Projects({}) {
                     viewport={{
                         once: true
                     }}
-                    className="w-40 h-40 xl:h-60 xl:w-80 md:h-40 md:w-60">
+                    >
                     <Image src={`/gym1.png`}
                     width="1080"
                     height="1920"
-                    alt="Gymbutikken webpgage improvement suggestion - frontpage"/>
+                    alt="Gymbutikken webpgage improvement suggestion - frontpage"
+                    className="w-40 h-30 xl:h-70 xl:w-80 md:h-50 md:w-60 mt-10"/>
                     </motion.div>
                     <motion.div
                     initial={{
@@ -540,12 +559,12 @@ export default function Projects({}) {
                     }}
                     viewport={{
                         once: true
-                    }}
-                    className="w-40 h-40 xl:h-60 xl:w-80 md:h-40 md:w-60">
+                    }}>
                     <Image src={`/gym2.png`}
                     width="1080"
                     height="1920"
-                    alt="Personas made for gymbutikken"/>
+                    alt="Personas made for gymbutikken"
+                    className="w-40 h-30 xl:h-70 xl:w-80 md:h-50 md:w-60 mt-10"/>
                     </motion.div>
                     <motion.div
                     initial={{
@@ -562,11 +581,12 @@ export default function Projects({}) {
                     viewport={{
                         once: true
                     }}
-                    className="w-40 h-40 xl:h-60 xl:w-80 md:h-40 md:w-60">
+                    >
                     <Image src={`/gym3.png`}
                     width="1080"
                     height="1920"
-                    alt="Gymbutikken webpage improvement suggestion - product page"/>
+                    alt="Gymbutikken webpage improvement suggestion - product page"
+                    className="w-40 h-30 xl:h-70 xl:w-80 md:h-50 md:w-60 mt-10"/>
                     </motion.div>
                     </div>
                     <div className="space-y-5 px-0 md:px-10 max-w-6xl mt-5">
@@ -583,7 +603,7 @@ export default function Projects({}) {
                         </p>
                     </div>
                 </div>
-                <div className="w-screen flex-shrink-0 snap-center flex flex-col spaxe-y-5 items-center justify-center p-20 md:p-44 h-screen">
+                <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
                     <div className="flex flex-row space-x-5">
                     <motion.div
                     initial={{
@@ -600,11 +620,12 @@ export default function Projects({}) {
                     viewport={{
                         once: true
                     }}
-                    className="w-40 h-40 xl:h-60 xl:w-80 md:h-40 md:w-60">
+                    >
                     <Image src={`/vr1.png`}
                     width="1080"
                     height="1920"
-                    alt="John travolta on dance floor in saturday night fever scene"/>
+                    alt="John travolta on dance floor in saturday night fever scene"
+                    className="w-40 h-30 xl:h-70 xl:w-80 md:h-50 md:w-60 mt-10"/>
                     </motion.div>
                     <motion.div
                     initial={{
@@ -621,11 +642,12 @@ export default function Projects({}) {
                     viewport={{
                         once: true
                     }}
-                    className="w-40 h-40 xl:h-60 xl:w-80 md:h-40 md:w-60">
+                    >
                     <Image src={`/vr3.png`}
                     width="1080"
                     height="1920"
-                    alt="VR game overview - sketch"/>
+                    alt="VR game overview - sketch"
+                    className="w-40 h-30 xl:h-70 xl:w-80 md:h-50 md:w-60 mt-10"/>
                     </motion.div>
                     <motion.div
                     initial={{
@@ -642,11 +664,12 @@ export default function Projects({}) {
                     viewport={{
                         once: true
                     }}
-                    className="w-40 h-40 xl:h-60 xl:w-80 md:h-40 md:w-60">
+                    >
                     <Image src={`/vr2.png`}
                     width="1080"
                     height="1920"
-                    alt="VR game user testing"/>
+                    alt="VR game user testing"
+                    className="w-40 h-30 xl:h-70 xl:w-80 md:h-50 md:w-60 mt-10"/>
                     </motion.div>
                     </div>
                     <div className="space-y-5 px-0 md:px-10 max-w-6xl mt-5">
@@ -664,7 +687,7 @@ export default function Projects({}) {
                         </p>
                     </div>
                 </div>
-                <div className="w-screen flex-shrink-0 snap-center flex flex-col spaxe-y-5 items-center justify-center p-20 md:p-44 h-screen">
+                <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
                     <div className="flex flex-row space-x-5">
                     <motion.div
                     initial={{
@@ -681,11 +704,12 @@ export default function Projects({}) {
                     viewport={{
                         once: true
                     }}
-                    className="w-40 h-40 xl:h-60 xl:w-80 md:h-40 md:w-60">
+                    >
                     <Image src={`/bach1.jpeg`}
                     width="1080"
                     height="1920"
-                    alt="Data analysis: using post-its"/>
+                    alt="Data analysis: using post-its"
+                    className="w-40 h-30 xl:h-70 xl:w-80 md:h-50 md:w-60 mt-10"/>
                     </motion.div>
                     <motion.div
                     initial={{
@@ -702,11 +726,12 @@ export default function Projects({}) {
                     viewport={{
                         once: true
                     }}
-                    className="w-40 h-40 xl:h-60 xl:w-80 md:h-40 md:w-60">
+                    >
                     <Image src={`/bach3.jpeg`}
                     width="1080"
                     height="1920"
-                    alt="Students writing bachelor thesis"/>
+                    alt="Students writing bachelor thesis"
+                    className="w-40 h-30 xl:h-70 xl:w-80 md:h-50 md:w-60 mt-10"/>
                     </motion.div>
                     <motion.div
                     initial={{
@@ -723,11 +748,12 @@ export default function Projects({}) {
                     viewport={{
                         once: true
                     }}
-                    className="w-40 h-40 xl:h-60 xl:w-80 md:h-40 md:w-60">
+                    >
                     <Image src={`/bach2.png`}
                     width="1080"
                     height="1920"
-                    alt="Strigoo logo"/>
+                    alt="Strigoo logo"
+                    className="w-40 h-30 xl:h-70 xl:w-80 md:h-50 md:w-60 mt-10"/>
                     </motion.div>
                     </div>
                     <div className="space-y-5 px-0 md:px-10 max-w-6xl mt-5">

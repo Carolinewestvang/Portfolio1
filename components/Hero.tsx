@@ -20,12 +20,14 @@ export default function Hero({}) {
     return (
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
         <BackgroundCircles />
-        <img
-       className="relative rounded-full h-40 w-40 mx-auto object-cover"
-       src="https://media.licdn.com/dms/image/C4D03AQEg4wg8MmqaNw/profile-displayphoto-shrink_800_800/0/1642490513665?e=1698278400&v=beta&t=RcfU9lFNWE_jO_zTHbgV99MEGDkanBq7aDfH7_5cL7A" alt="Image of Caroline Westvang Andreassen" />
+       <Image src={`/me.jpg`}
+        width="1080"
+        height="1920"
+        className="relative rounded-full h-40 w-40 mx-auto object-cover"
+        alt="Image of Caroline Westvang Andreassen"/>
         <div className="z-20">
             <h2 className="text-xs xl:text-sm uppercase text-gray-500 pb-2 tracking-[5px] md:tracking-[15px] xl:tracking-[15px]">Bachelor i digitale medier og design</h2>
-        <h1 className="text-3xl md:text-5xl lg:text-6xl font-semibold px-10">
+        <h1 className="text-2xl md:text-5xl lg:text-6xl font-semibold px-10">
         <span className="mr-3">Caroline Westvang Andreassen</span>
         </h1>
         <h3 className="text-lg md:text-2xl xl:text-2xl text-[#40E0D0]/40 pt-2 tracking-[2px]">Velkommen til min portefølje</h3>
