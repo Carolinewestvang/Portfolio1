@@ -20,7 +20,7 @@ export default function ContactMe({}) {
         <h3 className="absolute top-24 mr-5 ml-10 uppercase tracking-[20px] text-gray-500 text-2xl">Kontakt meg</h3>
         <div className="space-y-10">
         <div className="flex flex-col space-y-10 items-center justify-center md:pb-12 mt-10">
-            <h4 className="text-1xl md:text-4xl font-semibold text-center">
+            <h4 className="text-1xl md:text-1xl md:text-4xl font-semibold text-center">
                 Ønsker du å høre mer? <span className="text-[#40E0D0]/80">Ta kontakt.</span>
             </h4>
         </div>
